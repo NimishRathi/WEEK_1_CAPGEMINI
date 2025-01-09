@@ -1,0 +1,8 @@
+import java.util.*;
+class  volumeOfEarth{
+public static void main(String [] args){
+int radius = 6378 ;
+double volume =4/3*Math.pi*Math.pow(radius,3);
+System.out.println(volume);
+}
+}
